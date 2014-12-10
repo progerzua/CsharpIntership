@@ -1,0 +1,5 @@
+c:\users\artem\documents\visual studio 2012\Projects\Task3n4_using_Semaphore\Task3n4_using_Semaphore\bin\Debug\Task3n4_using_Semaphore.exe.config
+c:\users\artem\documents\visual studio 2012\Projects\Task3n4_using_Semaphore\Task3n4_using_Semaphore\bin\Debug\Task3n4_using_Semaphore.exe
+c:\users\artem\documents\visual studio 2012\Projects\Task3n4_using_Semaphore\Task3n4_using_Semaphore\bin\Debug\Task3n4_using_Semaphore.pdb
+c:\users\artem\documents\visual studio 2012\Projects\Task3n4_using_Semaphore\Task3n4_using_Semaphore\obj\Debug\Task3n4_using_Semaphore.exe
+c:\users\artem\documents\visual studio 2012\Projects\Task3n4_using_Semaphore\Task3n4_using_Semaphore\obj\Debug\Task3n4_using_Semaphore.pdb

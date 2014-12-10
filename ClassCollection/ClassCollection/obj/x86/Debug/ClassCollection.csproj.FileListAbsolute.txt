@@ -1,0 +1,10 @@
+C:\Users\artem\AppData\Local\Temporary Projects\ClassCollection\bin\Debug\ClassCollection.exe
+C:\Users\artem\AppData\Local\Temporary Projects\ClassCollection\bin\Debug\ClassCollection.pdb
+C:\Users\artem\AppData\Local\Temporary Projects\ClassCollection\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\artem\AppData\Local\Temporary Projects\ClassCollection\obj\x86\Debug\ClassCollection.exe
+C:\Users\artem\AppData\Local\Temporary Projects\ClassCollection\obj\x86\Debug\ClassCollection.pdb
+C:\Users\artem\documents\visual studio 2010\Projects\ClassCollection\ClassCollection\obj\x86\Debug\ClassCollection.exe
+C:\Users\artem\documents\visual studio 2010\Projects\ClassCollection\ClassCollection\obj\x86\Debug\ClassCollection.pdb
+C:\Users\artem\documents\visual studio 2010\Projects\ClassCollection\ClassCollection\bin\Debug\ClassCollection.exe
+C:\Users\artem\documents\visual studio 2010\Projects\ClassCollection\ClassCollection\bin\Debug\ClassCollection.pdb
+C:\Users\artem\documents\visual studio 2010\Projects\ClassCollection\ClassCollection\obj\x86\Debug\ResolveAssemblyReference.cache

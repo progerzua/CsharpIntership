@@ -1,0 +1,5 @@
+c:\users\artem\documents\visual studio 2012\Projects\Task6\Task6\bin\Debug\Task6.exe.config
+c:\users\artem\documents\visual studio 2012\Projects\Task6\Task6\bin\Debug\Task6.exe
+c:\users\artem\documents\visual studio 2012\Projects\Task6\Task6\bin\Debug\Task6.pdb
+c:\users\artem\documents\visual studio 2012\Projects\Task6\Task6\obj\Debug\Task6.exe
+c:\users\artem\documents\visual studio 2012\Projects\Task6\Task6\obj\Debug\Task6.pdb

@@ -1,0 +1,12 @@
+c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_withDemo_WPF\bin\Debug\Task2_withDemo_WPF.exe.config
+c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\MainWindow.baml
+c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\MainWindow.g.cs
+c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\App.g.cs
+c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF_MarkupCompile.cache
+c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF.g.resources
+c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF.Properties.Resources.resources
+c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF.csproj.GenerateResource.Cache
+c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_withDemo_WPF\bin\Debug\Task2_withDemo_WPF.exe
+c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_withDemo_WPF\bin\Debug\Task2_withDemo_WPF.pdb
+c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF.exe
+c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF.pdb

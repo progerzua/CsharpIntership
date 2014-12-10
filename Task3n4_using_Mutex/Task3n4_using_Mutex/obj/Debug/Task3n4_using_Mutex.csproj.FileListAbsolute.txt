@@ -1,0 +1,5 @@
+c:\users\artem\documents\visual studio 2012\Projects\Task3n4_using_Mutex\Task3n4_using_Mutex\bin\Debug\Task3n4_using_Mutex.exe.config
+c:\users\artem\documents\visual studio 2012\Projects\Task3n4_using_Mutex\Task3n4_using_Mutex\bin\Debug\Task3n4_using_Mutex.exe
+c:\users\artem\documents\visual studio 2012\Projects\Task3n4_using_Mutex\Task3n4_using_Mutex\bin\Debug\Task3n4_using_Mutex.pdb
+c:\users\artem\documents\visual studio 2012\Projects\Task3n4_using_Mutex\Task3n4_using_Mutex\obj\Debug\Task3n4_using_Mutex.exe
+c:\users\artem\documents\visual studio 2012\Projects\Task3n4_using_Mutex\Task3n4_using_Mutex\obj\Debug\Task3n4_using_Mutex.pdb
