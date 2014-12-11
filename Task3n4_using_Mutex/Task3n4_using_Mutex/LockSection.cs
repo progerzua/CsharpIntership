@@ -1,10 +1,11 @@
 ﻿// Task3 and Task4
-// Without Demo =( Just have no time for that.Also withoud Disposable(
 
 /*Create mutex using tasks and async/await. The main diierence with System.Threading.Mutex is that 
 this mutex must not block current thread (for using in UI thread).
 */
 
+// Actually, its not doing what we have to.
+// I realize that later =)
 
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ using System.Threading.Tasks;
 
 namespace Task3n4_using_Mutex
 {
-    public class LockSection : IDisposable
+    public class LockSection
     {
         private readonly Mutex _mutex = new Mutex();
         private readonly ManualResetEventSlim _resetEvent = new ManualResetEventSlim();

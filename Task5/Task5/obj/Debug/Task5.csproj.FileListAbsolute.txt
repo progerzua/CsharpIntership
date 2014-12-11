@@ -4,3 +4,9 @@ c:\users\artem\documents\visual studio 2012\Projects\Task5\Task5\bin\Debug\Task5
 c:\users\artem\documents\visual studio 2012\Projects\Task5\Task5\obj\Debug\Task5.csprojResolveAssemblyReference.cache
 c:\users\artem\documents\visual studio 2012\Projects\Task5\Task5\obj\Debug\Task5.exe
 c:\users\artem\documents\visual studio 2012\Projects\Task5\Task5\obj\Debug\Task5.pdb
+C:\Users\artem\Desktop\Kodisoft\Task5\Task5\bin\Debug\Task5.exe.config
+C:\Users\artem\Desktop\Kodisoft\Task5\Task5\obj\Debug\Task5.exe
+C:\Users\artem\Desktop\Kodisoft\Task5\Task5\obj\Debug\Task5.pdb
+C:\Users\artem\Desktop\Kodisoft\Task5\Task5\bin\Debug\Task5.exe
+C:\Users\artem\Desktop\Kodisoft\Task5\Task5\bin\Debug\Task5.pdb
+C:\Users\artem\Desktop\Kodisoft\Task5\Task5\obj\Debug\Task5.csprojResolveAssemblyReference.cache

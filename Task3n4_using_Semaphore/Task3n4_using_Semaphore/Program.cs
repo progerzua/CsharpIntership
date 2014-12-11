@@ -1,9 +1,10 @@
 ﻿// Task3 and Task4
-// Without Demo =(
 
 /*Create mutex using tasks and async/await. The main diierence with System.Threading.Mutex is that 
 this mutex must not block current thread (for using in UI thread).
 */
+
+// MSDN Helped me a lot =)
 
 using System;
 using System.Collections.Generic;
@@ -14,59 +15,91 @@ using System.Threading.Tasks;
 
 namespace Task3n4_using_Semaphore
 {
-    class AsyncLock
+    public class AsyncMutex
     {
-        private readonly Task<IDisposable> _releaserTask;
-        private readonly SemaphoreSlim _semaphore = new SemaphoreSlim(1, 1);
-        private readonly IDisposable _releaser;
+        private readonly static Task completed = Task.FromResult(true);
+        private readonly Queue<TaskCompletionSource<bool>> waiters = new Queue<TaskCompletionSource<bool>>();
+        private int currentCount;
 
-        public AsyncLock()
+        public AsyncMutex(int initialCount)
         {
-            _releaser = new Releaser(_semaphore);
-            _releaserTask = Task.FromResult(_releaser);
+            if (initialCount < 0) throw new ArgumentOutOfRangeException("initialCount");
+            currentCount = initialCount;
         }
-        public IDisposable Lock()
+
+        public Task Lock()
         {
-            _semaphore.Wait();
-            return _releaser;
-        }
-        public Task<IDisposable> LockAsync()
-        {
-            var waitTask = _semaphore.WaitAsync();
-            return waitTask.IsCompleted
-                ? _releaserTask
-                : waitTask.ContinueWith(
-                    (_, releaser) => (IDisposable)releaser,
-                    _releaser,
-                    CancellationToken.None,
-                    TaskContinuationOptions.ExecuteSynchronously,
-                    TaskScheduler.Default);
-        }
-        private class Releaser : IDisposable
-        {
-            private readonly SemaphoreSlim _semaphore;
-            public Releaser(SemaphoreSlim semaphore)
+            lock (waiters)
             {
-                _semaphore = semaphore;
+                if (currentCount > 0)
+                {
+                    --currentCount;
+                    return completed;
+                }
+                else
+                {
+                    var waiter = new TaskCompletionSource<bool>();
+                    waiters.Enqueue(waiter);
+                    return waiter.Task;
+                }
             }
+        }
+
+        public void Release()
+        {
+            TaskCompletionSource<bool> toRelease = null;
+            lock (waiters)
+            {
+                if (waiters.Count > 0)
+                    toRelease = waiters.Dequeue();
+                else
+                    ++currentCount;
+            }
+            if (toRelease != null)
+                toRelease.SetResult(true);
+        }
+    }
+
+    public class TaskMutex
+    {
+        private readonly AsyncMutex semaphore;
+        private readonly Task<Releaser> releaser;
+
+        public TaskMutex()
+        {
+            semaphore = new AsyncMutex(1);
+            releaser = Task.FromResult(new Releaser(this));
+        }
+
+        public Task<Releaser> LockSection()
+        {
+            var wait = semaphore.Lock();
+            return wait.IsCompleted ?
+                releaser :
+                wait.ContinueWith((_, state) => new Releaser((TaskMutex)state),
+                    this, CancellationToken.None,
+                    TaskContinuationOptions.ExecuteSynchronously, TaskScheduler.Default);
+        }
+
+        public struct Releaser : IDisposable
+        {
+            private readonly TaskMutex toRelease;
+
+            internal Releaser(TaskMutex mutex) { toRelease = mutex; }
+
             public void Dispose()
             {
-                _semaphore.Release();
+                if (toRelease != null)
+                    toRelease.semaphore.Release();
             }
         }
+
     }
 
     class Program
     {
         static void Main(string[] args)
         {
-            /* Usage:
-             * using (await _asyncLock.LockAsync())
-                {
-                    ... use shared resource.
-                }
-             
-             */
         }
     }
 }

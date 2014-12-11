@@ -10,3 +10,6 @@ c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_wi
 c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_withDemo_WPF\bin\Debug\Task2_withDemo_WPF.pdb
 c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF.exe
 c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF.pdb
+C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\bin\Debug\Task2_withDemo_WPF.exe.config
+C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF.exe
+C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF.pdb

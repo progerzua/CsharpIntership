@@ -26,25 +26,19 @@ namespace Task5
         public static async Task RequestData(string url)
         {
             WebClient client = new WebClient();
-            try
+            string data = await client.DownloadStringTaskAsync(url);
+            string[] parsedData = data.Split('\n');
+            foreach (string element in parsedData)
             {
-                string data = await client.DownloadStringTaskAsync(url);
-                string[] parsedData = data.Split('\n');
-                foreach (string element in parsedData)
+                if (!(String.IsNullOrEmpty(element)))
                 {
-                    if (!(String.IsNullOrEmpty(element)))
-                    {
-                        numbers.Enqueue(Convert.ToInt32(element));
-                    }
+                    numbers.Enqueue(Convert.ToInt32(element));
                 }
             }
-            catch
-            {
-                throw new NoConnectionException("Looks like internet connection don`t work now.");
-            }
+            working = false;
+            
 
         }
-
 
         public static int GenerateRandom(int n)
         {
@@ -53,17 +47,16 @@ namespace Task5
             {
                 try
                 {
+                    working = true;
                     Task mytask = Task.Run(async() =>
                     {
                         Console.WriteLine("\nMaking request...");
                         await RequestData(url);
                     });
-                    working = true;
                     return BCLrand(n);
                 }
-                catch (NoConnectionException ex)
+                catch
                 {
-                    Console.WriteLine(ex.Message);
                     return BCLrand(n);
                 }
             }
@@ -73,7 +66,6 @@ namespace Task5
                 if (numbers.TryDequeue(out result))
                 {
                     Console.WriteLine("Using Queue");
-                    working = false;
                     return result;
                 }
                 else
@@ -91,25 +83,11 @@ namespace Task5
             return rnd.Next(0, n + 1);
         }
 
-        [Serializable]
-        public class NoConnectionException : Exception
-        {
-            // Constructors
-            public NoConnectionException(string message)
-                : base(message)
-            { }
-
-            // Ensure Exception is Serializable
-            protected NoConnectionException(SerializationInfo info, StreamingContext ctxt)
-                : base(info, ctxt)
-            { }
-        }
-
 
         static void Main(string[] args)
         {
             Console.WriteLine("Generation Random numbers from 0 to 10");
-            Console.WriteLine("Press any key to generate number");
+            Console.WriteLine("Press enter to generate number or write 'exit' to close the program");
             while (!(Console.ReadLine().Equals("exit")))
             {
                 Console.WriteLine(GenerateRandom(10));

@@ -1,6 +1,5 @@
 ﻿// Task6
-// Just have no time for Demo =(
-
+// Without Demo
 /*
 For each assembly in AppDomain and for each assembly, that will be loaded in future, collect dictio-
 nary, where key is Type and value is reference to default ctor. If there is no default ctor, ignore type. 

@@ -3,3 +3,8 @@ c:\users\artem\documents\visual studio 2012\Projects\Task3n4_using_Mutex\Task3n4
 c:\users\artem\documents\visual studio 2012\Projects\Task3n4_using_Mutex\Task3n4_using_Mutex\bin\Debug\Task3n4_using_Mutex.pdb
 c:\users\artem\documents\visual studio 2012\Projects\Task3n4_using_Mutex\Task3n4_using_Mutex\obj\Debug\Task3n4_using_Mutex.exe
 c:\users\artem\documents\visual studio 2012\Projects\Task3n4_using_Mutex\Task3n4_using_Mutex\obj\Debug\Task3n4_using_Mutex.pdb
+C:\Users\artem\Desktop\Kodisoft\Task3n4_using_Mutex\Task3n4_using_Mutex\bin\Debug\Task3n4_using_Mutex.exe.config
+C:\Users\artem\Desktop\Kodisoft\Task3n4_using_Mutex\Task3n4_using_Mutex\obj\Debug\Task3n4_using_Mutex.exe
+C:\Users\artem\Desktop\Kodisoft\Task3n4_using_Mutex\Task3n4_using_Mutex\obj\Debug\Task3n4_using_Mutex.pdb
+C:\Users\artem\Desktop\Kodisoft\Task3n4_using_Mutex\Task3n4_using_Mutex\bin\Debug\Task3n4_using_Mutex.exe
+C:\Users\artem\Desktop\Kodisoft\Task3n4_using_Mutex\Task3n4_using_Mutex\bin\Debug\Task3n4_using_Mutex.pdb

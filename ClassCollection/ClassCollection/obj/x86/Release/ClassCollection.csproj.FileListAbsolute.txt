@@ -8,3 +8,8 @@ C:\Users\artem\documents\visual studio 2010\Projects\ClassCollection\ClassCollec
 C:\Users\artem\documents\visual studio 2010\Projects\ClassCollection\ClassCollection\obj\x86\Release\ClassCollection.pdb
 C:\Users\artem\documents\visual studio 2010\Projects\ClassCollection\ClassCollection\bin\Release\ClassCollection.exe
 C:\Users\artem\documents\visual studio 2010\Projects\ClassCollection\ClassCollection\bin\Release\ClassCollection.pdb
+C:\Users\artem\Desktop\Kodisoft\ClassCollection\ClassCollection\obj\x86\Release\ClassCollection.exe
+C:\Users\artem\Desktop\Kodisoft\ClassCollection\ClassCollection\obj\x86\Release\ClassCollection.pdb
+C:\Users\artem\Desktop\Kodisoft\ClassCollection\ClassCollection\obj\x86\Release\ClassCollection.csprojResolveAssemblyReference.cache
+C:\Users\artem\Desktop\Kodisoft\ClassCollection\ClassCollection\bin\Release\ClassCollection.exe
+C:\Users\artem\Desktop\Kodisoft\ClassCollection\ClassCollection\bin\Release\ClassCollection.pdb
