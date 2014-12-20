@@ -1,0 +1,6 @@
+c:\users\artem\documents\visual studio 2012\Projects\PluginLibrary\PluginLibrary\bin\Debug\PluginLibrary.exe.config
+c:\users\artem\documents\visual studio 2012\Projects\PluginLibrary\PluginLibrary\obj\Debug\PluginLibrary.csprojResolveAssemblyReference.cache
+C:\Users\artem\documents\visual studio 2012\Projects\PluginLibrary\PluginLibrary\bin\Debug\PluginLibrary.exe
+C:\Users\artem\documents\visual studio 2012\Projects\PluginLibrary\PluginLibrary\bin\Debug\PluginLibrary.pdb
+C:\Users\artem\documents\visual studio 2012\Projects\PluginLibrary\PluginLibrary\obj\Debug\PluginLibrary.exe
+C:\Users\artem\documents\visual studio 2012\Projects\PluginLibrary\PluginLibrary\obj\Debug\PluginLibrary.pdb

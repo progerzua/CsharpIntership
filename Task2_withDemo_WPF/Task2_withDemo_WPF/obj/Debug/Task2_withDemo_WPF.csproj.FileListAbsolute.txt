@@ -13,3 +13,13 @@ c:\users\artem\documents\visual studio 2012\Projects\Task2_withDemo_WPF\Task2_wi
 C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\bin\Debug\Task2_withDemo_WPF.exe.config
 C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF.exe
 C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF.pdb
+C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\bin\Debug\Task2_withDemo_WPF.exe
+C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\bin\Debug\Task2_withDemo_WPF.pdb
+C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF.csprojResolveAssemblyReference.cache
+C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\MainWindow.baml
+C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\App.g.cs
+C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF_MarkupCompile.cache
+C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF.g.resources
+C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF.Properties.Resources.resources
+C:\Users\artem\Desktop\Kodisoft\Task2_withDemo_WPF\Task2_withDemo_WPF\obj\Debug\Task2_withDemo_WPF.csproj.GenerateResource.Cache
